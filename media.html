@@ -6,43 +6,48 @@
     <title>About CodeRheem</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Meet CodeRheem</h1>
-            <p>An Aspiring Frontend Engineer, Innovating for the Web</p>
-        </header>
-        <section class="media-section">
-            <h2>Responsive Picture Element</h2>
-            <picture>
-                <source srcset="images/code_mobile.jpg" media="(max-width: 600px)">
-                <source srcset="images/code_tablet.jpg" media="(max-width: 1024px)">
-                <source srcset="images/code_laptop.jpg" media="(min-width: 1025px)">
-                <img src="images/code_default.jpg" alt="Coding environment">
-            </picture>
-        </section>
-        <section class="media-section">
-            <h2>Inspirational Video</h2>
-            <video controls>
-                <source src="videos/aspiration.mp4" type="video/mp4">
-                <source src="videos/aspiration.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
-        </section>
-        <section class="media-section">
-            <h2>Background Audio</h2>
-            <audio controls>
-                <source src="audio/inspiration.mp3" type="audio/mpeg">
-                <source src="audio/inspiration.ogg" type="audio/ogg">
-            </audio>
-        </section>
-        <section class="media-section">
-            <h2>Embedded SVG</h2>
-            <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="lightblue" />
-                <text x="50" y="55" font-size="15" text-anchor="middle" fill="black">CodeRheem</text>
-            </svg>
-            <p>This SVG represents my creativity and precision in crafting interactive designs.</p>
-        </section>
-    </div>
+    <header>
+        <nav role="navigation">
+            <a href="form.html">Form page</a>
+            <a href="media.html">Media page</a>
+            <a href="table.html">Table page</a>
+        </nav>
+    </header>
+        <main>
+            <section class="media-section">
+                <h1>Meet CodeRheem</h1>
+                <p>An Aspiring Frontend Engineer, Innovating for the Web</p>
+                <h2>Responsive Picture Element</h2>
+                <picture>
+                    <source srcset="images/code_mobile.jpg" media="(max-width: 600px)">
+                    <source srcset="images/code_tablet.jpg" media="(max-width: 1024px)">
+                    <source srcset="images/code_laptop.jpg" media="(min-width: 1025px)">
+                    <img src="images/code_default.jpg" alt="Coding environment">
+                </picture>
+            </section>
+            <section class="media-section">
+                <h2>Inspirational Video</h2>
+                <video controls>
+                    <source src="videos/aspiration.mp4" type="video/mp4">
+                    <source src="videos/aspiration.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <section class="media-section">
+                <h2>Background Audio</h2>
+                <audio controls>
+                    <source src="audio/inspiration.mp3" type="audio/mpeg">
+                    <source src="audio/inspiration.ogg" type="audio/ogg">
+                </audio>
+            </section>
+            <section class="media-section">
+                <h2>Embedded SVG</h2>
+                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="lightblue" />
+                    <text x="50" y="55" font-size="15" text-anchor="middle" fill="black">CodeRheem</text>
+                </svg>
+                <p>This SVG represents my creativity and precision in crafting interactive designs.</p>
+            </section>
+    </main>
 </body>
 </html>
